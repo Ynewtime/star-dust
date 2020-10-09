@@ -23,5 +23,5 @@ export default defineConfig({
     type: 'none',
   },
   publicPath: `${PROD_URL}/`,
-  title: 'Digital Twins',
+  title: 'Star Dust',
 });
