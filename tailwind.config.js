@@ -1,5 +1,7 @@
+const defaultTheme = require('tailwindcss/defaultTheme');
+
 module.exports = {
-  purge: ['./components/**/*.{js,ts,jsx,tsx}', './pages/**/*.{js,ts,jsx,tsx}'],
+  important: true,
   theme: {
     extend: {
       colors: {
@@ -7,10 +9,14 @@ module.exports = {
           primary: '#1890ff',
         },
       },
+      fontFamily: {
+        han: ['Source Han Serif', ...defaultTheme.fontFamily.serif],
+      },
     },
   },
   variants: {},
   plugins: [],
+  purge: ['./src/**/*.ts', './src/**/*.tsx', './src/**/*.js', './src/**/*.jsx'],
   future: {
     removeDeprecatedGapUtilities: true,
     purgeLayersByDefault: true,
