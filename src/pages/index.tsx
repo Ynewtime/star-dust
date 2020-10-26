@@ -5,15 +5,20 @@ import { List } from 'antd';
 import Footer from '@/components/Footer';
 
 const data = [
-  {
-    title: 'Resume',
-    description: '轻简历设计',
-    link: '/resume',
-  },
+  // {
+  //   title: 'Topology',
+  //   description: '基于 @antv/g6 的拓扑编辑器',
+  //   link: '/topology',
+  // },
   {
     title: 'Onboarding',
     description: '一个简单的用户信息表单',
     link: '/onboarding',
+  },
+  {
+    title: 'Resume',
+    description: '轻简历设计',
+    link: '/resume',
   },
 ];
 

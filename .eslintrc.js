@@ -8,5 +8,8 @@ module.exports = {
         additionalHooks: 'useRecoilCallback',
       },
     ],
+    '@typescript-eslint/no-loop-func': 0,
+    '@typescript-eslint/no-redeclare': 0,
+    '@typescript-eslint/no-shadow': 0,
   },
 };
